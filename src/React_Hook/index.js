@@ -1,4 +1,5 @@
 import React from "react";
+import DemoUseReducer from "./components/useReducer";
 // import ReactUseMemo from "./components/UseMemo";
 // import DemoUseRef from "./components/useRef";
 // import ReactMemo from "./components/ReactMemo";
@@ -11,10 +12,11 @@ const ReactHookComponents = () => {
         <div>
             {/* <TowWayBinding />
             <TodoList/>
-            <Timer /> */}
-            {/* <DemoUseRef/> */}
-            {/* <ReactMemo/> */}
-            {/* <ReactUseMemo/> */}
+            <Timer />
+            <DemoUseRef/>
+            <ReactMemo/>
+            <ReactUseMemo/> */}
+            <DemoUseReducer/>
         </div>
     )
 }

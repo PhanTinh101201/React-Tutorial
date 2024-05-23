@@ -1,13 +1,15 @@
 import React from 'react';
-import ReactHookComponents from './React_Hook';
+// import ReactHookComponents from './React_Hook';
+// import DemoJavaScript from './JavaScriptExample';
+import ReactDndDemo from './ReactDNDTutorial';
 import './style.scss'
-import DemoJavaScript from './JavaScriptExample';
 
 function App() {
   return (
     <div className="App">
-      <ReactHookComponents />
-      <DemoJavaScript/>
+      {/* <ReactHookComponents /> */}
+      {/* <DemoJavaScript/> */}
+      <ReactDndDemo/>
     </div>
   );
 }
